@@ -1,0 +1,7 @@
+# do not import all endpoints into this module because that uses a lot of memory and stack frames
+# if you need the ability to import all endpoints from this module, import them with
+# from officient_python_sdk.paths._1_0_budgets_budget_id_items_item_id import Api
+
+from officient_python_sdk.paths import PathValues
+
+path = PathValues._1_0_BUDGETS_BUDGET_ID_ITEMS_ITEM_ID
